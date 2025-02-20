@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nomadcoder-movie-app-2019/static/css/main.38d949cb.css",
+    "main.js": "/nomadcoder-movie-app-2019/static/js/main.99696140.js",
+    "index.html": "/nomadcoder-movie-app-2019/index.html",
+    "main.38d949cb.css.map": "/nomadcoder-movie-app-2019/static/css/main.38d949cb.css.map",
+    "main.99696140.js.map": "/nomadcoder-movie-app-2019/static/js/main.99696140.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38d949cb.css",
+    "static/js/main.99696140.js"
+  ]
+}
