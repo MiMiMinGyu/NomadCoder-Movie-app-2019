@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+} /* 모든 요소의 박스 크기를 경계 상자로 설정 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    background-color: #eff3f7;
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, 
+body, /* html, body 요소 */
+#root, /* id가 root인 요소 */
+.container { /* 높이 100% 설정 */
+    display: flex;
+    height:100%;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loader { /* 로딩 중 화면, class = loader */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    font-weight: 300;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movies {
+    display: flex;
+    justify-content: space-between; /* 요소 사이의 간격을 최대한 넓게 설정 */
+    align-items: flex-start; /* 요소를 위쪽으로 정렬 */
+    flex-wrap: wrap; /* 요소가 넘칠 경우 다음 줄로 넘어감 */
+    padding: 50px;
+    padding-top: 70px;
+    width: 80%;
 }
